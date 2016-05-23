@@ -57,19 +57,21 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
+  padding-bottom: 10px;
+  padding-top: 10px;
   background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 10px 10px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 10px 10px; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    ppadding: 10px 10px; } }
 
 .project-name {
   margin-top: 0;
