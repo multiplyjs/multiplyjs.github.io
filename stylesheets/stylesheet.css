@@ -1,6 +1,34 @@
 * {
   box-sizing: border-box; }
 
+#home {
+  background-color: white !important;
+  color: black;
+}
+
+.tabs {
+  text-decoration: none;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px !important;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border: black 1px;
+  background-color: #158E62;
+  font-size: 20px;
+  color: white;
+  font-family: arial, verdana, sans-serif;
+}
+
+.tabs:hover{
+  background-color: #432234;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -57,9 +85,12 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  padding-bottom: 10px;
+  padding-bottom: 0px !important;
+  list-style: none;
   padding-top: 10px;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #155799, #159957);
+  height: 350px;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -75,7 +106,7 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 10px; }
 
 @media screen and (min-width: 64em) {
   .project-name {
