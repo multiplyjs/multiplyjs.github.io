@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box; }
 
-#home {
-  background-color: white !important;
-  color: black;
-}
-
 .tabs {
   text-decoration: none;
   float: left;
