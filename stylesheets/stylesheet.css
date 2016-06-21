@@ -4,6 +4,13 @@
 pre {
   background-color: black;
   border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 500px;
+  font: 1em "Open Sans", sans-serif !important;
+}
+
+code {
+  color: #b5e853 !important;
+  font-size: 14px !important;
 }
 
 .tabs {
